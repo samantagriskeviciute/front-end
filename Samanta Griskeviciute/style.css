@@ -1,0 +1,10 @@
+#test{/*kokia spalva ir koks dydis*/
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+}
+#test:hover{/*pasukimas tam tikru kampu 15laipsniu*/
+    transform:rotate(15deg);
+}

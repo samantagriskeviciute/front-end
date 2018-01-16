@@ -1,0 +1,52 @@
+body{/*per visa ekrana paveiksliukas*/
+    margin: 0px;
+    padding: 0px;
+    background-image:url("images/swirl_pattern.png");
+}
+#container{
+    width: 900px;
+    min-height: 500px;
+    background: lime;
+    border-radius: 10px;
+    /* ilgoji versija
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;*/
+    margin:0px auto;/*trumpoji*/
+
+    margin-top:50px;
+}
+.image-wrap{
+    background: deeppink;
+/*    margin: 10px;
+    background: red;
+    min-width: 200px;
+    max-width: 200px;
+    display: inline-block;/*images pasidaro kaip blokas*/
+
+    overflow: hidden;
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+    min-width: 248px;
+    min-width: 222px;
+    text-align: center;*/
+
+}
+
+.image-wrap div{
+    background: orange;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+}
+.image-wrap img{
+    max-width: 100%;
+
+}
+.image-wrap img:hover{
+    transform:scale(1.5);
+
+}
